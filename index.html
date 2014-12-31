@@ -58,344 +58,280 @@
     
   </head>
   <body>
-       <section class="full-texture">
+    <!--
+        COMPLEMENTO FAN PAGE FACEBOOK
+    -->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=227226870631328&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+
+       <section class="zona-principal">
                <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                       <!--
-                               LOGOTIPO
-                       -->
+                  <!-- BANNER PRINCIPAL -->
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center banner-ppal">
+                    <h2>BANNER PRINCIPAL</h2>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                         <h1 id="logo"><img src="img/GoRadioHD-logo.png" class="img-responsive"></h1>
-
-                        <!-- 
-                                REPRODUCTOR
-                        -->
-                        <section class="hidden-xs hidden-sm">
-                            <div class="reproductor">
-                            <script type="text/javascript" src="js/player.js"></script>
-                                 <script type="text/javascript">
-                                        new WHMSonic({
-                                        path : "js/WHMSonic.swf",
-                                        source : "http://94.23.16.185:9580",
-                                        volume : 50,
-                                        autoplay : true,
-                                        width: 372,
-                                        height: 60,
-                                        twitter : "https://twitter.com/GoRadioHD",
-                                        //facebook : "http://www.facebook.com/whmsonicfans",
-                                        //logo : "http://www.whmsonic.com/flashplayer.php",
-                                        });
-                                    </script>
-                            </div>                        
-                        </section>
-
-
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                         <h3 id="titulo-sociales">¡Siguenos en las redes sociales!</h3>
 
-                         <div class="row">
-                             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-                                <!--
-                                   BOTONES SOCIALES
-                              -->
-                               <div class="botones-sociales">
-                                     <!-- Go to www.addthis.com/dashboard to generate a new set of sharing buttons -->
-                                    <!-- Go to www.addthis.com/dashboard to generate a new set of sharing buttons -->
-									<a href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=http%3A%2F%2Fgoradiohd.com%2F&pubid=ra-5443f0d2430394ee&ct=1&title=Te%20recomiendo%20escuchar%20a%20%40goradiohd%20-%20La%20Verdadera%20Radio%20Streaming&pco=tbxnj-1.0" target="_blank"><img src="https://cache.addthiscdn.com/icons/v2/thumbs/32x32/twitter.png" border="0" alt="Twitter"/></a>
-
-
-                                    <a href="http://instagram.com/goradiohd" target="_blank"><img src="img/instagram-icono.png" alt="" id="instagram"></a>          
-
-                               </div>
-
-
-                                  <!--
-                                       TIMELINE
-                                  -->
-                                    <div class="timeline">                        
-                                        <a class="twitter-timeline" href="https://twitter.com/GoRadioHD" data-widget-id="523649498405277696">Tweets por @GoRadioHD</a>
-                                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id))                           {js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}                                             (document,"script","twitter-wjs");</script>
-                                    </div>
-                             </div>
-
-                         </div>                   
+                    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6 titulo-sociales text-center">
+                          <span>Siguenos en las redes sociales</span>
                         </div>
+
+                        <div class="col-sm-6 col-md-6 col-lg-6 botones-sociales">
+                          <a href=""><img src="img/facebook-icon.png"></a>
+                          <a href="https://twitter.com/GoRadioHD" target="_blank"><img src="img/twitter-icon.png"></a>
+                          <a href="https://plus.google.com/s/goradiohd" target="_blank"><img src="img/google-icon.png"></a>
+                          <a href="http://instagram.com/goradiohd" target="_blank"><img src="img/instagram-icon.png" alt="" id="instagram"></a> 
+                        </div>
+
+
+                      </div>
+                        
+                        
+
+                      <div class="row widget-sociales">
+                          <div class="col-sm-6 col-md-6 col-lg-6 timeline">
+                                  <a class="twitter-timeline" href="https://twitter.com/GoRadioHD" data-widget-id="549353084649234432">Tweets por el @GoRadioHD.</a>                                    
+                            </div>
+
+                          <div class=" col-sm-6 col-md-6 col-lg-6 fan-page">
+                              <div class="fb-like-box" data-href="https://www.facebook.com/pages/Goradiohd/1512154309052005?ref=hl" data-width="230" data-height="260" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>                 
+                          </div>
+                      </div>
+                         
+
                     </div>
+                </div>
+
+                <!-- REPRODUCTOR -->
+                <div class="row zona-reproductor">
+                  <div class="col-md-12 col-lg-12 text-center">
+                    AQUI EL REPRODUCTOR
+                  </div>
                 </div>
        </section>    
         
         <!--
            TITULO TOP 10 DE LA SEMANA
       -->
-        <section class="top10-titulo">
+        <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <h1 id="top-10"><img src="img/volume-increase.png" alt=""> Top 10 de la Semana</h1>
+                    <div class="col-xs-12 col-sm-7 offset-sm-1 col-md-7 offset-md-1 col-lg-7 offset-lg-1">
+                      <div class="top10-titulo">
+                        <span>TRENDING 5</span>
+                        <span id="top10-sub">Actualizadas Semanalmente</span>
+                      </div>
+                        
+
+                        <!--
+                           POSICION 01
+                          -->                         
+                         <div class="row posiciones">
+                             <div class="col-xs-2 col-md-1 col-lg-1">
+                                 <span id="ranking">1</span>
+                             </div>
+                             <div class="col-xs-2 col-md-1 col-lg-1 imagen-top">
+                                 <img src="img/posicion1.jpg">
+                             </div>
+                             <div class="col-xs-8 col-md-10 col-lg-10">
+                               <div class="cancion">
+                                   <h3 id="titulo-cancion">Pasarla Bien</h3>
+                                   <h4 id="artista">Ilegales Ft. El Potro Alvarez</h4>
+                               </div>
+                               <div class="ver-video">
+                                  <a href="#">
+                                    <img src="img/video-icon.png">
+                                    <span>ver video</span>
+                                  </a> 
+                               </div>                                
+                             </div>
+                         </div>                                                
+                        
+
+                        <!--
+                          POSICION 02
+                        -->                        
+                         <div class="row posiciones">
+                             <div class="col-xs-2 col-md-1 col-lg-1">
+                                 <span id="ranking">2</span>
+                             </div>
+                             <div class="col-xs-2 col-md-1 col-lg-1 imagen-top">
+                                 <img src="img/posicion2.jpg">
+                             </div>
+                             <div class="col-xs-8 col-md-10 col-lg-10">
+                               <div class="cancion">
+                                   <h3 id="titulo-cancion">Dejame Acompañarte</h3>
+                                   <h4 id="artista">Elvis Crespo Ft. Omar Enrique</h4>
+                               </div> 
+                               <div class="ver-video">
+                                  <a href="#">
+                                    <img src="img/video-icon.png">
+                                    <span>ver video</span>
+                                  </a> 
+                               </div>                               
+                             </div>
+                         </div>                                                
+                      
+
+                       <!--
+                           POSICION 03
+                       -->                      
+                       <div class="row posiciones">
+                           <div class="col-xs-2 col-md-1 col-lg-1">
+                               <span id="ranking">3</span>
+                           </div>
+                           <div class="col-xs-2 col-md-1 col-lg-1 imagen-top">
+                               <img src="img/posicion3.jpg">
+                           </div>
+                           <div class="col-xs-8 col-md-10 col-lg-10">
+                             <div class="cancion">
+                                 <h3 id="titulo-cancion">De  Vuelta a Tú Corazón</h3>
+                                 <h4 id="artista">Guaco</h4>
+                             </div> 
+                             <div class="ver-video">
+                                <a href="#">
+                                  <img src="img/video-icon.png">
+                                  <span>ver video</span>
+                                </a> 
+                             </div>                                   
+                           </div>
+                       </div>                                                
+                       
+
+                       <!--
+                           POSICION 04
+                      -->                       
+                       <div class="row posiciones">
+                           <div class="col-xs-2 col-md-1 col-lg-1">
+                               <span id="ranking">4</span>
+                           </div>
+                           <div class="col-xs-2 col-md-1 col-lg-1 imagen-top">
+                               <img src="img/posicion4.jpg">
+                           </div>
+                           <div class="col-xs-8 col-md-10 col-lg-10">
+                             <div class="cancion">
+                                 <h3 id="titulo-cancion">Ahí Vamos</h3>
+                                 <h4 id="artista">J Balvin</h4>
+                             </div> 
+                             <div class="ver-video">
+                                <a href="#">
+                                  <img src="img/video-icon.png">
+                                  <span>ver video</span>
+                                </a> 
+                             </div>                                   
+                           </div>
+                       </div>                                                
+                       
+
+                       <!--
+                           POSICION 05
+                       -->                       
+                       <div class="row posiciones">
+                           <div class="col-xs-2 col-md-1 col-lg-1">
+                               <span id="ranking">5</span>
+                           </div>
+                           <div class="col-xs-2 col-md-1 col-lg-1 imagen-top">
+                               <img src="img/posicion5.jpg">
+                           </div>
+                           <div class="col-xs-8 col-md-10 col-lg-10">
+                             <div class="cancion">
+                                 <h3 id="titulo-cancion">Tumbaye</h3>
+                                 <h4 id="artista">Oscarcito</h4>
+                             </div> 
+                             <div class="ver-video">
+                                <a href="#">
+                                  <img src="img/video-icon.png">
+                                  <span>ver video</span>
+                                </a> 
+                             </div>                               
+                           </div>
+                       </div>                                            
+    
                     </div>
+
+                    <!-- ESPACIO PUBLICITARIO -->
+                    <div class="hidden-xs col-sm-4 col-md-4 col-lg-4">
+                      <div class="publi-azul">
+                        <span id="publicidad">¿Necesitas publicitar tu idea, <br>página web o empresa? <br>¡Contactanos!</span>
+                        <span id="email-hola">hola@goradiohd.com</span>
+                        <img src="img/nube.png" id="nube">
+                      </div>
+
+                      <div class="publi-fucsia">
+                        <span id="publicidad">¿Necesitas publicitar tu idea, <br>página web o empresa? <br>¡Contactanos!</span>
+                        <span id="email-hola">hola@goradiohd.com</span>
+                        <img src="img/nube.png" id="nube">
+                      </div>
+                    </div>
+
                 </div>
             </div>
         </section>
         
-        <!--
-           CUERPO TOP 10 DE LA SEMANA
-      -->
-      <section class="cuerpo-top-10">
-          <div class="container">
-              <div class="row">
-                 
-                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                         <!--
-                           POSICION 01
-                          -->
-                         <div class="posiciones">
-                             <div class="row">
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <span id="ranking">1</span>
-                                 </div>
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <img src="img/posicion1.jpg" alt="" id="imagen-top">
-                                 </div>
-                                 <div class="col-xs-8 col-md-10 col-lg-10">
-                                   <div class="cancion">
-                                       <h3 id="titulo-cancion">Pasarla Bien</h3>
-                                       <h4 id="artista">Ilegales Ft. El Potro Alvarez</h4>
-                                   </div>                                
-                                 </div>
-                             </div>                                                
-                        </div>
-                        
-                        <!--
-                          POSICION 02
-                        -->
-                        <div class="posiciones">
-                             <div class="row">
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <span id="ranking">2</span>
-                                 </div>
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <img src="img/posicion2.jpg" alt="" id="imagen-top">
-                                 </div>
-                                 <div class="col-xs-8 col-md-10 col-lg-10">
-                                   <div class="cancion">
-                                       <h3 id="titulo-cancion">Dejame Acompañarte</h3>
-                                       <h4 id="artista">Elvis Crespo Ft. Omar Enrique</h4>
-                                   </div>                                
-                                 </div>
-                             </div>                                                
-                       </div>
-                       
-                       <!--
-                           POSICION 03
-                       -->
-                       <div class="posiciones">
-                             <div class="row">
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <span id="ranking">3</span>
-                                 </div>
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <img src="img/posicion3.jpg" alt="" id="imagen-top">
-                                 </div>
-                                 <div class="col-xs-8 col-md-10 col-lg-10">
-                                   <div class="cancion">
-                                       <h3 id="titulo-cancion">De  Vuelta a Tú Corazón</h3>
-                                       <h4 id="artista">Guaco</h4>
-                                   </div>                                
-                                 </div>
-                             </div>                                                
-                       </div>
-                       
-                       <!--
-                           POSICION 04
-                      -->
-                       <div class="posiciones">
-                             <div class="row">
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <span id="ranking">4</span>
-                                 </div>
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <img src="img/posicion4.jpg" alt="" id="imagen-top">
-                                 </div>
-                                 <div class="col-xs-8 col-md-10 col-lg-10">
-                                   <div class="cancion">
-                                       <h3 id="titulo-cancion">Ahí Vamos</h3>
-                                       <h4 id="artista">J Balvin</h4>
-                                   </div>                                
-                                 </div>
-                             </div>                                                
-                       </div>
-                       
-                       <!--
-                           POSICION 05
-                       -->
-                       <div class="posiciones">
-                             <div class="row">
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <span id="ranking">5</span>
-                                 </div>
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <img src="img/posicion5.jpg" alt="" id="imagen-top">
-                                 </div>
-                                 <div class="col-xs-8 col-md-10 col-lg-10">
-                                   <div class="cancion">
-                                       <h3 id="titulo-cancion">Tumbaye</h3>
-                                       <h4 id="artista">Oscarcito</h4>
-                                   </div>                                
-                                 </div>
-                             </div>                                                
-                       </div>
-                        
-                  </div>
-                  
-                                  
-                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                     <!--
-                          POSICION 06
-                    -->  
-                        <div class="posiciones">
-                             <div class="row">
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <span id="ranking">6</span>
-                                 </div>
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <img src="img/posicion6.jpg" alt="" id="imagen-top">
-                                 </div>
-                                 <div class="col-xs-8 col-md-10 col-lg-10">
-                                   <div class="cancion">
-                                       <h3 id="titulo-cancion">Tu Me Quemas</h3>
-                                       <h4 id="artista">Chino & Nacho Ft. Gente de Zona y
-     Los Cadillacs </h4>
-                                   </div>                                
-                                 </div>
-                             </div>
-                       </div>
-                       
-                       <!--
-                           POSICION 07
-                      -->
-                      <div class="posiciones">
-                             <div class="row">
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <span id="ranking">7</span>
-                                 </div>
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <img src="img/posicion7.jpg" alt="" id="imagen-top">
-                                 </div>
-                                 <div class="col-xs-8 col-md-10 col-lg-10">
-                                   <div class="cancion">
-                                       <h3 id="titulo-cancion">Una Cita</h3>
-                                       <h4 id="artista">Alkilados</h4>
-                                   </div>                                
-                                 </div>
-                             </div>                                                
-                       </div>
-                       
-                       <!--
-                           POSICION 08
-                      -->
-                      <div class="posiciones">
-                             <div class="row">
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <span id="ranking">8</span>
-                                 </div>
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <img src="img/posicion8.jpg" alt="" id="imagen-top">
-                                 </div>
-                                 <div class="col-xs-8 col-md-10 col-lg-10">
-                                   <div class="cancion">
-                                       <h3 id="titulo-cancion">Carnaval</h3>
-                                       <h4 id="artista">Maluma</h4>
-                                   </div>                                
-                                 </div>
-                             </div>                                                
-                      </div>
-                      
-                      <!--
-                            POSICION 09
-                      -->
-                      <div class="posiciones">
-                             <div class="row">
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <span id="ranking">9</span>
-                                 </div>
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <img src="img/posicion9.jpg" alt="" id="imagen-top">
-                                 </div>
-                                 <div class="col-xs-8 col-md-10 col-lg-10">
-                                   <div class="cancion">
-                                       <h3 id="titulo-cancion">Te Encontraré</h3>
-                                       <h4 id="artista">Ronald Borjas</h4>
-                                   </div>                                
-                                 </div>
-                             </div>                                                
-                      </div>
-                      
-                      <!--
-                           POSICION 10
-                      -->
-                      <div class="posiciones">
-                             <div class="row">
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <span id="ranking">10</span>
-                                 </div>
-                                 <div class="col-xs-2 col-md-1 col-lg-1">
-                                     <img src="img/posicion10.jpg" alt="" id="imagen-top">
-                                 </div>
-                                 <div class="col-xs-8 col-md-10 col-lg-10">
-                                   <div class="cancion">
-                                       <h3 id="titulo-cancion">Yo Quiero</h3>
-                                       <h4 id="artista">Gente de Zona Ft. Pitbull</h4>
-                                   </div>                                
-                                 </div>
-                             </div>                                                
-                      </div>
-       
-                  </div> 
-             </div>
-          </div>
-      </section>
-    
+   
     
     <!--
         SECCION TUNEIN
     -->
     <section class="tunein">
         <div class="container">
-            <div class="row">
+            <div class="row apartado-tunein">
                
                 <!-- 
                     TELEFONO 
                 -->
-               <div class="col-xs-6 col-md-4 col-lg-4">
-                  <div class="telefono">
-                      <img src="img/telefono.png" class="img-responsive">
-                  </div>
+               <div class="col-xs-6 col-md-6 col-lg-6">
+                  <figure id="monitor"> <img src="img/monitor.png"> </figure>
+                  <figure id="tablet"> <img src="img/tablet.png"> </figure>
+                  <figure id="telefono"> <img src="img/telefono.png"> </figure>
                </div> 
                
                <!-- 
                    DATOS TUNEIN
                 -->
-                <div class="col-xs-6 col-md-5 col-lg-5">
-                    <h4 id="texto-tunein">Buscanos desde tu Smartphone <br>como <span id="GoRadioHD">GoRadioHD</span> y escúchanos con</h4>
-                    <div class="logo-tunein">
-                        <img src="img/logo-tunein.png" class="img-responsive">
-                    </div>                    
-                </div>
-                
-                <!--
-                    BOTONES STORE
-                -->
-                <div class="col-xs-12 col-md-3 col-lg-3">
-                   <div class="app">
-                       <a href="https://play.google.com/store/apps/details?id=tunein.player&hl=es_419" target="_blank"><img src="img/google-play.png" alt=""></a>
-                       <a href="https://itunes.apple.com/us/app/tunein-radio/id418987775?l=es&mt=8" target="_blank"><img src="img/app-store.png" alt=""></a>
-                   </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <div class="datos-tunein">
+                    <span>DESDE</span>
+                    <img src="img/tunein.png">
+                    <span id="texto-tunein">BUSCANOS EN TU SMARTPHONE COMO</span> 
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                      <!-- TAG RADIO EN TUNEIN -->
+                      <div class="tag-radio">
+                        <span>GoRadioHD</span>
+                      </div>
                     
+                    <!-- ICONOS APP TUNEIN -->
+                      <div class="app">
+                         <a href="https://play.google.com/store/apps/details?id=tunein.player&hl=es_419" target="_blank"><img src="img/google-play.png" alt=""></a>
+                         <a href="https://itunes.apple.com/us/app/tunein-radio/id418987775?l=es&mt=8" target="_blank"><img src="img/app-store.png" alt=""></a>
+                      </div>
+                      
+                    </div>
+                  </div>
+                                      
                 </div>
             </div>
         </div>
     </section>
+
     
     <!--
         CONTACTANOS
@@ -409,7 +345,7 @@
                           
                           <div class="row">
                               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                                  <h4 id="email"><img src="img/icon-email.png" alt=""> goradiohd@gmail.com</h4>
+                                  <h4 id="email"><img src="img/icon-email.png" alt=""> hola@goradiohd.com</h4>
                               </div>
                               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                   <h4 id="tlf"><img src="img/icon-phone.png" alt=""> +58 414-774.1880</h4>
@@ -442,5 +378,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- SCRIPT TIMELINE -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   </body>
 </html>
