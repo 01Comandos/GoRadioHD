@@ -22,7 +22,7 @@
 }
 
 @font-face{
-    font-family: :'Bowhouse';
+    font-family: 'Bowhouse';
     src: url('../fonts/Bowhouse-Regular.otf');
 }
 
@@ -136,8 +136,8 @@ body{
     display: inline-block;
     vertical-align: top;
     float: right;
-    margin-left: 1em;
-    margin-top: 1.5em;    
+    margin-right: 1em;
+    margin-top: -2.5em;    
 }
 
 .ver-video a{
@@ -225,41 +225,37 @@ body{
 }
 
 .datos-tunein{
-    color: #434343;
-    font-size: 3em;
-    font-family: 'Bowhouse';
-    margin-top: 1em;
+    color: #ffffff;
+    font-family: 'Harabara';
+    font-size: 2.5em;
+    margin-top: 2.6em;
+    line-height: 0.8;
+    text-align: center;
+    text-shadow: 0.891px 0.454px 1px rgba(0, 0, 0, 0.31);
 }
 
 #texto-tunein{
+    color: #434343;
     display: block;
+    font-family: 'Bowhouse';
     line-height: 1;
-}
-
-.tag-radio{
-    background: #00abf4;
-    color: #ffffff;
-    font-size: 3em;
-    font-family: 'Harabara';
-    text-align: center;
-    margin-top: 1em;
-}
-
-.tag-radio span{
-    color: #ffffff;
-    width: 5em;
+    margin-top: 0.2em;
 }
 
 .app{
     text-align: center;
-    margin-top: 1.5em;
+    margin-top: 2.5em;
 }
 
-
-
-
-
-
+.background-tunein{
+    background: #73cbef;
+    height: 10.5em;
+    position: absolute;
+    top: 87.5em;
+    left: 0em;
+    width: 100%;
+    z-index: 19;
+}
 
 .contactanos{
     background: #da2585;
@@ -309,20 +305,285 @@ footer h5 a{
     color: #ffffff;
 }
 
+
+
+
+
 /*******************************************************************
                     MEDIAS QUERIES
 *******************************************************************/
-@media (max-width: 480px){
-    
-    
+
+/*PHONE SMALL */
+@media (min-width: 394px) and (max-width: 415px){
+    h3{
+        margin: 0;
+    }
+
+    #logo{
+        text-align: center;
+        float: none;
+        margin: 1em auto 0;
+    }
+
+    .botones-sociales{
+        text-align: center;
+        float: none;
+        margin: 1em auto 0;
+        margin-bottom: 1em;
+    }
+
+    .top10-titulo{
+        font-size: 2.7em;
+    }
+
+    #top10-sub{
+        font-size: 24px;
+    }
+
+    .cancion{
+        margin-left: 2em;
+    }
+
+    #titulo-cancion{
+        margin: 0.3em 0;
+    }
+
+    .ver-video{
+        display: block;
+        float: left;
+        margin-left: 2em;
+        margin-top: 0em;    
+    }
+
+    .ver-video a{
+        font-size: 0.8em;
+    }
+
+    #top10-sub{
+        font-size: 30px;
+    }
+
+    .publi-azul{
+        margin-top: 0;
+    }
+
+    .publi-azul, .publi-fucsia{
+        color: #ffffff;
+    }
+
+    #nube{
+        display: none;
+    }
+
+    .datos-tunein{
+        color: #373737;
+        font-size: 2.5em;
+        margin-top: -1em;
+    }
+
+    #texto-tunein{
+        color: #5e5e5e;
+        font-size: 26px;
+    } 
+
+    .app{
+        margin-top: 1em;
+    }
+
+    .background-tunein{
+        top: 110em;
+        height: 8.2em;
+    }
+
+    #email, #tlf {
+        text-align: center;
+    }
 }
 
 
-@media (min-width: 481px) and (max-width: 920px){
-    
-    
+
+/* Extra small devices (phones, less than 768px) */
+@media (min-width: 416px) and (max-width: 767px){
+    #logo{
+        text-align: center;
+        float: none;
+        margin: 1em auto 0;
+    }
+
+    .botones-sociales{
+        text-align: center;
+        margin-bottom: 0.9em;
+    }
+
+    #top10-sub{
+        font-size: 30px;
+    }
+
+    .cancion{
+        margin-top: -1em;
+    }
+
+    .ver-video{
+        float: left;
+        margin-left: 2.2em;
+        margin-top: 0;
+    }
+
+    .ver-video a{
+        font-size: 0.9em;
+    }
+
+    .publi-azul{
+        margin-top: 0;
+    }
+
+    .publi-azul, .publi-fucsia{
+        color: #ffffff;
+    }
+
+    #nube{
+        display: none;
+    }
+
+    .datos-tunein{
+        color: #373737;
+        font-size: 2.5em;
+        margin-top: -1em;
+    }
+
+    #texto-tunein{
+        color: #5e5e5e;
+        font-size: 26px;
+    } 
+
+    .app{
+        margin-top: 1em;
+    }
+
+    .background-tunein{
+        top: 110em;
+        height: 8.2em;
+    }
+
+    #email, #tlf {
+        text-align: center;
+    }
 }
 
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){
+    .timeline{
+        margin-left: -1em;
+        width: 230px;
+    }
+
+    .fan-page{
+        float: right;
+        margin-left: 0;
+    }
+
+    #top10-sub{
+        font-size: 30px;
+    }
+
+    .cancion{
+        margin-top: -1em;
+        display: inline-block;
+        line-height: 0.8;
+    }
+
+    #titulo-cancion{
+    font-size: 1.1em;
+    }
+
+    .ver-video{
+       display: block;
+       float: left;
+       vertical-align: top;
+       margin-top: -0.1em;
+       margin-left: 2.5em;
+    }
+
+    .ver-video a{
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+        font-family: 'Montserrat';
+        font-size: 0.8em;
+        padding: 0.5em 0.5em;
+    }
+
+    .publi-azul{
+        margin-bottom: 2em;
+        margin-top: 9em;
+    }
+
+    .datos-tunein{
+        font-size: 2.5em;
+    }
+
+    .datos-tunein img{
+        width: 4em;
+        margin-top: -0.5em;
+    }
+
+    #nube{
+        width: 12em;
+        height: 9em;
+        margin-top: -3.2em;
+    }
+
+    .datos-tunein{
+        margin-top: 2.2em;
+        font-size: 31px
+    }
+
+    #texto-tunein{
+        font-size: 26px;
+    }    
+
+    .app{
+        margin-top: 1.8em;
+    }
+
+    #tunein{
+        margin-top: 0.1em;
+        height: 2.9em;
+    }
+
+    .background-tunein{
+        top: 85em;
+        height: 8em;
+    }
+
+    #email, #tlf {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .datos-tunein{
+        margin-top: 2em;
+    }
+
+    #texto-tunein{
+        font-size: 32px;
+    }
+
+    #tunein{
+        margin-top: 0.3em;
+    }
+
+    .background-tunein{
+        top: 86em;
+        height: 10em;
+    }
+
+    .fan-page{
+        margin-left: 0;
+    }
+}
 
 
 
