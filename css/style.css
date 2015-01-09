@@ -32,12 +32,30 @@ body{
 
 .zona-principal{
     background: #f3f2f2;
+    position: relative;
+}
+
+.clic-banner{
+    background: transparent;
+    position: absolute;
+    top: 0;
+    width: 1170px;
+    height: 112px;
+}
+
+.clic-banner:hover{
+    cursor: url("https://www.google.co.ve/maps/place/Plaza+Pichincha/@10.4638414,-64.1734293,18z/data=!4m2!3m1!1s0x0000000000000000:0x9e57b5176aff8ae6?hl=es-419"), pointer;
+
 }
 
 .banner-ppal{
-    background: #33afef;
-    color: #ffffff;
-    height: 112px;
+    background: #ffffff;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.17);
+    padding: 0;
+}
+
+.banner-ppal object{
+    display: block;
 }
 
 #logo {
@@ -63,7 +81,7 @@ body{
 }
 
 .botones-sociales a{
-    margin-left: 1em;
+    margin-left: 0.3em;
 }
 
 .timeline{
@@ -81,7 +99,13 @@ body{
 
 .zona-reproductor{
     background: #e5e5e5;
-    border-bottom: 1em solid #f3f2f2;
+    padding: 0.5em 0.5em;
+    border-bottom: 0.6em solid #f3f2f2;
+}
+
+.zona-reproductor iframe{
+    border: none;
+    padding: 0;
 }
 
 .top10-titulo{
@@ -251,7 +275,7 @@ body{
     background: #73cbef;
     height: 10.5em;
     position: absolute;
-    top: 87.5em;
+    top: 90.7em;
     left: 0em;
     width: 100%;
     z-index: 19;
@@ -261,6 +285,7 @@ body{
     background: #da2585;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    margin-top: 2em;
 }
 
 
@@ -314,7 +339,7 @@ footer h5 a{
 *******************************************************************/
 
 /*PHONE SMALL */
-@media (min-width: 394px) and (max-width: 415px){
+@media (max-width: 415px){
     h3{
         margin: 0;
     }
@@ -328,8 +353,8 @@ footer h5 a{
     .botones-sociales{
         text-align: center;
         float: none;
-        margin: 1em auto 0;
-        margin-bottom: 1em;
+        margin: 1em auto 1em;
+
     }
 
     .top10-titulo{
@@ -337,7 +362,9 @@ footer h5 a{
     }
 
     #top10-sub{
-        font-size: 24px;
+        font-size: 14px;
+        margin-top: -0.5em;
+        line-height: 0.7;
     }
 
     .cancion{
@@ -397,6 +424,10 @@ footer h5 a{
 
     #email, #tlf {
         text-align: center;
+    }
+
+    .contactanos{
+        margin-top: -2em;
     }
 }
 
@@ -468,11 +499,35 @@ footer h5 a{
     #email, #tlf {
         text-align: center;
     }
+
+    .contactanos{
+        margin-top: -2em;
+    }
 }
 
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px){
+    .zona-principal{
+        position: relative;
+    }
+
+    .clic-banner{
+        background: transparent;
+        position: absolute;
+        top: 0;
+        width: 750px;
+        height: 112px;
+    }
+    .banner-ppal{
+        padding: 0;
+    }
+
+    .banner-ppal object{
+        display: block;
+        width: 50%;
+    }
+
     .timeline{
         margin-left: -1em;
         width: 230px;
@@ -553,16 +608,44 @@ footer h5 a{
     }
 
     .background-tunein{
-        top: 85em;
+        top: 88.5em;
         height: 8em;
     }
 
     #email, #tlf {
         text-align: center;
     }
+
+    .contactanos{
+        margin-top: 1em;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
+    .zona-principal{
+        position: relative;
+    }
+
+    .clic-banner{
+        background: transparent;
+        position: absolute;
+        top: 0;
+        width: 970px;
+    }
+
+    .banner-ppal{
+        padding: 0;
+    }
+
+    .banner-ppal a{
+        display: block;
+    }
+
+    .banner-ppal object{
+        display: block;
+        width: 50%;
+    }
+
     .datos-tunein{
         margin-top: 2em;
     }
@@ -576,7 +659,7 @@ footer h5 a{
     }
 
     .background-tunein{
-        top: 86em;
+        top: 89.5em;
         height: 10em;
     }
 
