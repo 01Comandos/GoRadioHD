@@ -1,3 +1,14 @@
+/*
+
+    Proyecto: GoRadioHD.com | La verdadera Radio Streaming
+
+    Diseñado y maquetado por: @01Comandos
+
+    Fecha: Enero 2015;
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:700);
 
@@ -125,57 +136,144 @@ body{
     margin-bottom: 0.5em;
 }
 
-.posiciones{
-    background: #000000;
-    padding: 1em 0.5em;
-    border-bottom: 2px solid #1e1e1e;
+#ranking{
+    color: #FFFFFF;
+    font-size: 2em;
+    font-family: 'Harabara';
+    background: rgba(0, 156, 222,0.7);
+    padding: 0.3em 0.7em;
+    position: absolute;
+    top: 0em;
+    z-index: 3;
 }
 
-#ranking{
-    color: #ffffff;
-    font-size: 3em;
+#ranking-secundario{
+    color: #FFFFFF;
+    font-size: 1.5em;
     font-family: 'Harabara';
-    margin-left: 0.3em;
+    background: rgba(0, 156, 222,0.7);
+    padding: 0.2em 0.5em;
+    position: absolute;
+    top: 0em;
+    z-index: 3;
 }
 
 .cancion{
-    margin-left: 2.5em;
     display: inline-block;
 }
 
 #titulo-cancion{
-    color: #ffffff;
-    font-size: 1.2em;
+    color: #000000;
     font-family: 'Harabara';
+    font-size: 0.9em;
+    margin-top: 0.5em;
 }
 
 #artista{
     color: #c32372;
-    font-size: 1em;
     font-family: 'Roboto Condensed';
-    margin-top: -0.3em;
+    font-size: 0.9em;
+    margin-bottom: 1.1em;
+    margin-top: -0.7em;
 }
 
-.ver-video{
+.posicion-one,
+.posiciones-two-three,
+.posiciones-four-five{
     display: inline-block;
     vertical-align: top;
-    float: right;
-    margin-right: 1em;
-    margin-top: -2.5em;    
 }
 
-.ver-video a{
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 3px;
-    font-family: 'Montserrat';
-    font-size: 1em;
-    padding: 0.5em 0.5em;
+.posiciones-two-three,
+.posiciones-four-five{
+    margin-left: 0.9em;
 }
 
-.ver-video a:hover{
-    background: #c32372;
-    text-decoration: none;
+figure.avatar-one img{
+    width: 19.1em;
+}
+
+figure.avatar-four img,
+figure.avatar-five img{
+    margin-left: -10px;
+}
+
+.avatar-one{
+    width: 19.1em;
+    height: 19.1em;
+    overflow: auto;
+}
+
+.avatar-two,
+.avatar-three,
+.avatar-four,
+.avatar-five{
+    width: 141px;
+    height: 127px;
+    overflow: auto;
+}
+
+.posicion-one,
+.posicion-two,
+.posicion-three,
+.posicion-four,
+.posicion-five{
+    position: relative;
+}
+
+.avatar-one img,
+.avatar-two img,
+.avatar-three img,
+.avatar-four img,
+.avatar-five img{
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+    max-width: 100%;
+    
+}
+
+.avatar-one img:hover,
+.avatar-two img:hover,
+.avatar-three img:hover,
+.avatar-four img:hover,
+.avatar-five img:hover{
+    cursor: pointer;
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+}
+
+.posicion-two,
+.posicion-three{
+    margin: 0;
+}
+
+div#modal-video1,
+div#modal-video2,
+div#modal-video3,
+div#modal-video4,
+div#modal-video5{
+    background: rgba(45, 44, 44, 0.8);
+}
+
+.modal-content{
+    height: 315px;
+    margin: 10em auto;
+    width: 560px;
+}
+
+.video-posicion{
+    text-align: center;
 }
 
 .publi-azul{
@@ -184,10 +282,8 @@ body{
     font-size: 1em;
     font-family: 'Roboto Condensed';
     height: 16.8em;
-    /*padding: 0.5em 0.5em;*/
     text-align: center;
     margin-bottom: 2em;
-    margin-top: 9.3em;
 }
 
 #publicidad{
@@ -195,7 +291,6 @@ body{
     position: relative;
     top: 4.5em;
 }
-
 
 #nube{
     z-index: 2;
@@ -275,7 +370,7 @@ body{
     background: #73cbef;
     height: 10.5em;
     position: absolute;
-    top: 90.7em;
+    top: 77.5em;
     left: 0em;
     width: 100%;
     z-index: 19;
@@ -367,23 +462,35 @@ footer h5 a{
         line-height: 0.7;
     }
 
-    .cancion{
-        margin-left: 2em;
+    #ranking{
+        left: 0.9em;
+    }
+
+    #cancion1{
+        margin-left: 1.5em;
     }
 
     #titulo-cancion{
-        margin: 0.3em 0;
+        margin: 0.5em 0;
+        padding-bottom: 0.3em;
     }
 
-    .ver-video{
+    .posicion-one,
+    .posiciones-two-three,
+    .posiciones-four-five{
         display: block;
-        float: left;
-        margin-left: 2em;
-        margin-top: 0em;    
     }
 
-    .ver-video a{
-        font-size: 0.8em;
+    .posicion-two,
+    .posicion-three,
+    .posicion-four,
+    .posicion-five{
+        display: inline-block;
+    }
+
+    .posicion-three,
+    .posicion-five{
+        margin-left: 1em;
     }
 
     #top10-sub{
@@ -464,22 +571,39 @@ footer h5 a{
         margin-bottom: 0.9em;
     }
 
+    #ranking{
+        left: 1.2em;
+    }
+
+    #ranking-secundario{
+        left: 0;
+    }
+
     #top10-sub{
         font-size: 30px;
     }
 
     .cancion{
-        margin-top: -1em;
+        margin-top: 0em;
     }
 
-    .ver-video{
-        float: left;
-        margin-left: 2.2em;
-        margin-top: 0;
+    .posicion-one,
+    .posiciones-two-three,
+    .posiciones-four-five{
+        display: block;
+        text-align: center;
     }
 
-    .ver-video a{
-        font-size: 0.9em;
+    .posicion-two,
+    .posicion-three,
+    .posicion-four,
+    .posicion-five{
+        display: inline-block;
+    }
+
+    .posicion-three,
+    .posicion-five{
+        margin-left: 1em;
     }
 
     .publi-azul{
@@ -584,35 +708,17 @@ footer h5 a{
     }
 
     .cancion{
-        margin-top: -1em;
+        margin-top: -0.4em;
         display: inline-block;
         line-height: 0.8;
     }
 
     #titulo-cancion{
-    font-size: 1.1em;
-    }
-
-    .ver-video{
-       display: block;
-       float: left;
-       vertical-align: top;
-       margin-top: -0.1em;
-       margin-left: 2.5em;
-    }
-
-    .ver-video a{
-        color: #ffffff;
-        border: 1px solid #ffffff;
-        border-radius: 3px;
-        font-family: 'Montserrat';
-        font-size: 0.8em;
-        padding: 0.5em 0.5em;
+        font-size: 1.1em;
     }
 
     .publi-azul{
-        margin-bottom: 2em;
-        margin-top: 9em;
+        display: none;
     }
 
     .datos-tunein{
@@ -649,7 +755,7 @@ footer h5 a{
     }
 
     .background-tunein{
-        top: 88.5em;
+        top: 75em;
         height: 8em;
     }
 
@@ -687,6 +793,10 @@ footer h5 a{
         width: 50%;
     }
 
+    .posiciones-two-three, .posiciones-four-five{
+        margin-left: 0.2em;
+    }
+
     .datos-tunein{
         margin-top: 2.7em;
     }
@@ -700,7 +810,7 @@ footer h5 a{
     }
 
     .background-tunein{
-        top: 89.5em;
+        top: 76em;
         height: 10em;
     }
 
