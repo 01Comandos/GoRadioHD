@@ -427,6 +427,16 @@ footer h5 a{
 
 
 
+/********************************************************
+estilos para el link externo de radios
+********************************************************/
+.radio-externa{
+    background: #00a3e8;
+    margin-top: 0.5em;
+}
+
+
+
 
 
 /*******************************************************************
@@ -498,8 +508,8 @@ footer h5 a{
     }
 
     .publi-azul{
-        margin-top: 0;
-        margin: 0;
+        background: none;
+        margin-bottom: 5em !important;
     }
 
     .publi-azul img{
@@ -606,7 +616,19 @@ footer h5 a{
         margin-left: 1em;
     }
 
+    .posicion-one figure{
+        text-align: center;
+        margin: -3.15em auto -1em !important;
+    }
+
+    span#ranking{
+        position: relative !important;
+        left: -3.96em;
+    }
+
     .publi-azul{
+        background: none;
+        margin-bottom: 5em !important;
         margin:0;
         padding: 0.5em 0.5em;
     }
@@ -795,6 +817,10 @@ footer h5 a{
 
     .posiciones-two-three, .posiciones-four-five{
         margin-left: 0.2em;
+    }
+
+    .publi-azul{
+        background: none;
     }
 
     .datos-tunein{
