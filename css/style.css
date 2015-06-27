@@ -509,7 +509,9 @@ estilos para el link externo de radios
 
     .publi-azul{
         background: none;
-        margin-bottom: 5em !important;
+        height: 12em;
+        margin:0;
+        padding: 0.5em 0.5em;
     }
 
     .publi-azul img{
@@ -518,7 +520,8 @@ estilos para el link externo de radios
 
     .publi-fucsia{
         margin-top: 0;
-        height: 7em
+        height: 7em;
+        display: none;
     }
 
     .publi-azul, .publi-fucsia{
@@ -526,15 +529,21 @@ estilos para el link externo de radios
     }
 
     #publicidad{
-        top: 0.3em;
+        top: 2em;
+        color: #000000;
     }
 
     #email-hola{
-        top: 0.4em !important;   
+        top: 3.5em !important;   
     }
 
     #nube{
-        display: none;
+        margin-top: -4.8em;
+    }
+
+    .radio-externa{
+        text-align: center;
+        padding-bottom: 0.7em;
     }
 
     .datos-tunein{
@@ -627,12 +636,13 @@ estilos para el link externo de radios
 
     .publi-azul{
         background: none;
-        margin-bottom: 5em !important;
+        height: 12em;
         margin:0;
         padding: 0.5em 0.5em;
     }
 
     .publi-fucsia{
+        display: none;
         margin-top: 0;
         height: 11em;
     }
@@ -648,6 +658,7 @@ estilos para el link externo de radios
 
     #publicidad{
         top: 2em;
+        color: #000000;
     }
 
     #email-hola{
@@ -655,7 +666,12 @@ estilos para el link externo de radios
     }
 
     #nube{
-        display: none;
+       margin-top: -4.8em;
+    }
+
+    .radio-externa{
+        text-align: center;
+        padding-bottom: 0.7em;
     }
 
     .datos-tunein{
@@ -738,7 +754,7 @@ estilos para el link externo de radios
         font-size: 1.1em;
     }
 
-    .publi-azul{
+    .publi-azul, .radio-externa{
         display: none;
     }
 
@@ -819,7 +835,7 @@ estilos para el link externo de radios
     }
 
     .publi-azul{
-        background: none;
+        background: #33afef;
     }
 
     .datos-tunein{
