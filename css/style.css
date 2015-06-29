@@ -297,6 +297,19 @@ div#modal-video5{
     margin-top: -2em;
 }
 
+.plusmix{
+    text-align: center;
+}
+
+.texto-mix{
+    background: #eeeeee;
+    color: #d6277e;
+    font-family: 'Harabara';
+    font-size: 1.8em;
+    line-height: 1em;
+    padding: 0.5em;
+}
+
 #email-hola{
     color: #ffffff;
     display: block;
@@ -315,6 +328,10 @@ div#modal-video5{
     text-align: center;
     z-index: 3;
     position: relative;
+}
+
+.radio-externa{
+    text-align: center;
 }
 
 .tunein{
@@ -542,8 +559,9 @@ estilos para el link externo de radios
     }
 
     .radio-externa{
-        text-align: center;
+        background: none;
         padding-bottom: 0.7em;
+        text-align: center;
     }
 
     .datos-tunein{
@@ -670,8 +688,9 @@ estilos para el link externo de radios
     }
 
     .radio-externa{
-        text-align: center;
+        background: none;
         padding-bottom: 0.7em;
+        text-align: center;
     }
 
     .datos-tunein{
@@ -771,6 +790,10 @@ estilos para el link externo de radios
         width: 12em;
         height: 9em;
         margin-top: -3.2em;
+    }
+
+    .plusmix{
+        display: none;
     }
 
     .datos-tunein{
