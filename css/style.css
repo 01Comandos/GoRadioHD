@@ -41,6 +41,14 @@ body{
     font-size: 16px;
 }
 
+/****ESPECIALES****/
+.trending,
+.tunein,
+.background-tunein{
+    display: none;
+}
+/************* */
+
 .zona-principal{
     background: #f3f2f2;
     position: relative;
