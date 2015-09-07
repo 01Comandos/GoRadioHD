@@ -339,37 +339,16 @@ div#modal-video5{
 }
 
 .tunein{
-    position: relative;
-    margin-top: 3.5em;
-    margin-bottom: 2em;
-    z-index: 20;
-}
-
-#monitor img{
-    width: 100%;
-    z-index: 5;
-}
-
-#tablet{
-    float: right;
-    position: relative;
-    margin-top: -12.5em;
-    margin-right: -0.8em;
-    z-index: 6;
-}
-
-#telefono{
-    position: relative;
-    margin-top: -10em;
-    z-index: 4;
+    background: #73cbef;
+    padding: 1em;
 }
 
 .datos-tunein{
     color: #ffffff;
     font-family: 'Harabara';
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 0.8;
-    text-align: center;
+    text-align: right;
     text-shadow: 0.891px 0.454px 1px rgba(0, 0, 0, 0.31);
 }
 
@@ -383,23 +362,13 @@ div#modal-video5{
 
 .app{
     text-align: center;
-    margin-top: 2.5em;
-}
-
-.background-tunein{
-    background: #73cbef;
-    height: 10.5em;
-    position: relative;
-    margin-top: -16.5em;
-    width: 100%;
-    z-index: 19;
+    margin-top: 1.5em;
 }
 
 .contactanos{
     background: #da2585;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    margin-top: 5.5em;
 }
 
 
