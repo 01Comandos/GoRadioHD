@@ -41,14 +41,6 @@ body{
     font-size: 16px;
 }
 
-/****ESPECIALES****/
-.trending,
-.tunein,
-.background-tunein{
-    display: none;
-}
-/************* */
-
 .zona-principal{
     background: #f3f2f2;
     position: relative;
@@ -113,6 +105,10 @@ body{
 .fan-page{
     float: left;
     margin-top: 1.5em;
+}
+
+.publicidad1-amazon{
+    display: inline-block;
     margin-left: 1em;
 }
 
@@ -372,7 +368,6 @@ div#modal-video5{
     color: #ffffff;
     font-family: 'Harabara';
     font-size: 2.5em;
-    margin-top: 3.2em;
     line-height: 0.8;
     text-align: center;
     text-shadow: 0.891px 0.454px 1px rgba(0, 0, 0, 0.31);
@@ -394,9 +389,8 @@ div#modal-video5{
 .background-tunein{
     background: #73cbef;
     height: 10.5em;
-    position: absolute;
-    top: 77.5em;
-    left: 0em;
+    position: relative;
+    margin-top: -16.5em;
     width: 100%;
     z-index: 19;
 }
@@ -405,7 +399,7 @@ div#modal-video5{
     background: #da2585;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    margin-top: 2em;
+    margin-top: 5.5em;
 }
 
 
