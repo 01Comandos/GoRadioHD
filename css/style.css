@@ -340,7 +340,7 @@ div#modal-video5{
 
 .tunein{
     background: #73cbef;
-    padding: 1em;
+    padding: 1em 0 0 0;
 }
 
 .datos-tunein{
@@ -352,17 +352,30 @@ div#modal-video5{
     text-shadow: 0.891px 0.454px 1px rgba(0, 0, 0, 0.31);
 }
 
-#texto-tunein{
-    color: #434343;
-    display: block;
-    font-family: 'Bowhouse';
-    line-height: 1;
-    margin-top: 0.2em;
+.app,
+.img-appphone{
+    display: inline-block;
+    margin-top: -1.2em;
 }
 
 .app{
+    position: relative;
     text-align: center;
-    margin-top: 1.5em;
+    top: 0.5em;
+}
+
+.app a img{
+    width: 6em;
+}
+
+.img-appphone{
+    margin-left: 1em;
+    margin-top: -1.9em;
+}
+
+.img-appphone img{
+    width: 11em;
+    height: 6.3em;
 }
 
 .contactanos{
@@ -447,120 +460,33 @@ estilos para el link externo de radios
         text-align: center;
         float: none;
         margin: 1em auto 1em;
-
-    }
-
-    .top10-titulo{
-        font-size: 2.7em;
-    }
-
-    #top10-sub{
-        font-size: 14px;
-        margin-top: -0.5em;
-        line-height: 0.7;
-    }
-
-    #ranking{
-        left: 0.9em;
-    }
-
-    #cancion1{
-        margin-left: 1.5em;
-    }
-
-    #titulo-cancion{
-        margin: 0.5em 0;
-        padding-bottom: 0.3em;
-    }
-
-    .posicion-one,
-    .posiciones-two-three,
-    .posiciones-four-five{
-        display: block;
-    }
-
-    .posicion-two,
-    .posicion-three,
-    .posicion-four,
-    .posicion-five{
-        display: inline-block;
-    }
-
-    .posicion-three,
-    .posicion-five{
-        margin-left: 1em;
-    }
-
-    #top10-sub{
-        font-size: 30px;
-    }
-
-    .publi-azul{
-        background: none;
-        height: 12em;
-        margin:0;
-        padding: 0.5em 0.5em;
-    }
-
-    .publi-azul img{
-        margin-bottom: 1em;
-    }
-
-    .publi-fucsia{
-        margin-top: 0;
-        height: 7em;
-        display: none;
-    }
-
-    .publi-azul, .publi-fucsia{
-        color: #ffffff;
-    }
-
-    #publicidad{
-        top: 2em;
-        color: #000000;
     }
 
     #email-hola{
         top: 3.5em !important;   
     }
 
-    #nube{
-        margin-top: -4.8em;
-    }
-
-    .radio-externa{
-        background: none;
-        padding-bottom: 0.7em;
+    .tunein {
+        padding: 1em;
         text-align: center;
     }
 
     .datos-tunein{
         color: #373737;
-        font-size: 2.5em;
-        margin-top: -1em;
+        font-size: 1.5em;
+        text-align: center;
     }
-
-    #texto-tunein{
-        color: #5e5e5e;
-        font-size: 26px;
-    } 
 
     .app{
         margin-top: 1em;
     }
 
-    .background-tunein{
-        top: 110em;
-        height: 8.2em;
+    .img-appphone{
+        display: none;
     }
 
     #email, #tlf {
         text-align: center;
-    }
-
-    .contactanos{
-        margin-top: 0em;
     }
 }
 
@@ -578,122 +504,31 @@ estilos para el link externo de radios
         margin-bottom: 0.9em;
     }
 
-    #ranking{
-        left: 1.2em;
-    }
-
-    #ranking-secundario{
-        left: 0;
-    }
-
-    #top10-sub{
-        font-size: 30px;
-    }
-
-    .cancion{
-        margin-top: 0em;
-    }
-
-    .posicion-one,
-    .posiciones-two-three,
-    .posiciones-four-five{
-        display: block;
-        text-align: center;
-    }
-
-    .posicion-two,
-    .posicion-three,
-    .posicion-four,
-    .posicion-five{
-        display: inline-block;
-    }
-
-    .posicion-three,
-    .posicion-five{
-        margin-left: 1em;
-    }
-
-    .posicion-one figure{
-        text-align: center;
-        margin: -3.15em auto -1em !important;
-    }
-
-    span#ranking{
-        position: relative !important;
-        left: -3.96em;
-    }
-
-    .publi-azul{
-        background: none;
-        height: 12em;
-        margin:0;
-        padding: 0.5em 0.5em;
-    }
-
-    .publi-fucsia{
-        display: none;
-        margin-top: 0;
-        height: 11em;
-    }
-
-    .publi-azul, .publi-fucsia{
-        color: #ffffff;
-    }
-
-    .publi-azul img{
-        display: inline-block;
-
-    }
-
-    #publicidad{
-        top: 2em;
-        color: #000000;
-    }
-
     #email-hola{
         top: 3em;
-    }
+    }   
 
-    #nube{
-       margin-top: -4.8em;
-    }
-
-    .radio-externa{
-        background: none;
-        padding-bottom: 0.7em;
+    .tunein {
+        padding: 1em;
         text-align: center;
     }
 
     .datos-tunein{
         color: #373737;
         font-size: 2.5em;
-        margin-top: -1em;
+        text-align: center;
     }
-
-    #texto-tunein{
-        color: #5e5e5e;
-        font-size: 26px;
-    } 
 
     .app{
         margin-top: 1em;
     }
 
-    .background-tunein{
-        top: 110em;
-        height: 8.2em;
-    }
-
-    #informacion{
-        margin-top: 3em;
+    .img-appphone{
+        display: none;
     }
 
     #email, #tlf {
         text-align: center;
-    }
-
-    .contactanos{
-        margin-top: -2em;
     }
 }
 
@@ -711,6 +546,7 @@ estilos para el link externo de radios
         width: 750px;
         height: 112px;
     }
+
     .banner-ppal{
         padding: 0;
     }
@@ -725,31 +561,8 @@ estilos para el link externo de radios
         width: 230px;
     }
 
-    .fan-page{
-        float: right;
-        margin-left: 0;
-    }
-
-    #top10-sub{
-        font-size: 30px;
-    }
-
-    .cancion{
-        margin-top: -0.4em;
-        display: inline-block;
-        line-height: 0.8;
-    }
-
-    #titulo-cancion{
-        font-size: 1.1em;
-    }
-
-    .publi-azul, .radio-externa{
+    .publicidad1-amazon{
         display: none;
-    }
-
-    .datos-tunein{
-        font-size: 2.5em;
     }
 
     .datos-tunein img{
@@ -757,45 +570,22 @@ estilos para el link externo de radios
         margin-top: -0.5em;
     }
 
-    #nube{
-        width: 12em;
-        height: 9em;
-        margin-top: -3.2em;
-    }
-
-    .plusmix{
-        display: none;
-    }
-
     .datos-tunein{
-        margin-top: 2.9em;
-        font-size: 31px
-    }
-
-    #texto-tunein{
-        font-size: 26px;
-    }    
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+        margin-top: 0.3em;
+    }   
 
     .app{
-        margin-top: 1.8em;
+        top: 1em;
     }
 
-    #tunein{
-        margin-top: 0.1em;
-        height: 2.9em;
-    }
-
-    .background-tunein{
-        top: 75em;
-        height: 8em;
+    .img-appphone{
+        display: none;
     }
 
     #email, #tlf {
         text-align: center;
-    }
-
-    .contactanos{
-        margin-top: 1em;
     }
 }
 
@@ -824,29 +614,19 @@ estilos para el link externo de radios
         width: 50%;
     }
 
-    .posiciones-two-three, .posiciones-four-five{
-        margin-left: 0.2em;
+    .timeline{
+        padding-left: 0;
+        margin: 0.8em 0 0 0;
     }
 
-    .publi-azul{
-        background: #33afef;
+    .publicidad1-amazon{
+        margin-right: -1em;
+        float: right;
     }
 
     .datos-tunein{
-        margin-top: 2.7em;
-    }
-
-    #texto-tunein{
-        font-size: 32px;
-    }
-
-    #tunein{
         margin-top: 0.3em;
-    }
-
-    .background-tunein{
-        top: 76em;
-        height: 10em;
+        font-size: 1.6em;
     }
 
     .fan-page{
