@@ -46,33 +46,18 @@ body{
     position: relative;
 }
 
-.clic-banner{
-    background: transparent;
-    position: absolute;
-    top: 0;
-    width: 1170px;
-    height: 112px;
-}
-
-.clic-banner:hover{
-    cursor: url("https://www.google.co.ve/maps/place/Plaza+Pichincha/@10.4638414,-64.1734293,18z/data=!4m2!3m1!1s0x0000000000000000:0x9e57b5176aff8ae6?hl=es-419"), pointer;
-
-}
-
 .banner-ppal{
     background: #ffffff;
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.17);
     padding: 0;
 }
 
-.banner-ppal object{
-    display: block;
+.banner-ppal figure img{
+    width: 100%;
 }
 
-#logo {
-    float: right;
-    margin-top: 1em;
-    width: 330px;
+.logo img{
+    margin: 0 auto;
 }
 
 .titulo-sociales{
