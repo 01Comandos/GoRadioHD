@@ -426,6 +426,40 @@ estilos para el link externo de radios
 }
 
 
+/**** SEGMENTO GOMIX ****/
+.gomix{
+    text-align:  center;
+    padding-top: 2em;
+}
+
+.gomix-title h3{
+    font-size: 3em;
+    font-family: 'Harabara',sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #da2585;
+}
+
+.gomix-title p{
+    font-size: 1.3em;
+    font-family: 'Bariol',sans-serif;
+}
+
+.gomix-pack{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.gomix-pack figure{
+    width: 25%;
+}
+
+.gomix-pack figure img{
+    width:  100%;
+}
+
+
 
 
 
