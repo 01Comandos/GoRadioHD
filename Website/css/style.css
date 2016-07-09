@@ -447,16 +447,19 @@ estilos para el link externo de radios
 
 .gomix-pack{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 46em;
+    margin: 0 auto 2em;
 }
 
 .gomix-pack figure{
-    width: 25%;
+    width: 50%;
+    margin-bottom:  0.5em;
 }
 
 .gomix-pack figure img{
-    width:  100%;
+    width: 22em;
 }
 
 
@@ -512,6 +515,24 @@ estilos para el link externo de radios
     #email, #tlf {
         text-align: center;
     }
+
+    .gomix-pack{
+        width: auto;
+        margin: 0 auto;
+        padding: 0 0.5em
+    }
+    
+    .gomix-pack figure{
+        width: 45%;
+    }
+
+    .gomix-pack figure:nth-child(2n){
+        margin-left: 0.5em;
+    }
+
+    .gomix-pack figure img{
+        width: 100%;
+    }
 }
 
 
@@ -555,8 +576,25 @@ estilos para el link externo de radios
     #email, #tlf {
         text-align: center;
     }
-}
 
+    .gomix-pack{
+        width: auto;
+        margin: 0 auto;
+        padding: 0 0.5em
+    }
+    
+    .gomix-pack figure{
+        width: 45%;
+    }
+
+    .gomix-pack figure:nth-child(2n){
+        margin-left: 0.5em;
+    }
+
+    .gomix-pack figure img{
+        width: 100%;
+    }
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px){
