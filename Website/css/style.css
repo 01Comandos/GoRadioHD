@@ -449,17 +449,25 @@ estilos para el link externo de radios
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 46em;
+    width: 48em;
     margin: 0 auto 2em;
 }
 
 .gomix-pack figure{
-    width: 50%;
+    width: 30%;
     margin-bottom:  0.5em;
 }
 
 .gomix-pack figure img{
-    width: 22em;
+    width: 100%;
+}
+
+.gomix-pack figure:nth-child(2){
+    margin: 0 0.8em 0.5em 0.8em
+}
+
+.gomix-pack figure:nth-child(4){
+    margin-right: 0.8em;
 }
 
 
