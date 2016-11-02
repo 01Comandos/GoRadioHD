@@ -23,7 +23,7 @@
 	<!--LOGOTIPO Y MENU-->	
 	<figure>
 		<a href="index.php">
-			<img src="img/radioUCSAR-logotipo.png" alt="radio ucsar logotipo">
+			<img src="img/goradiohd-logotipo.png" alt="goradiohd logotipo">
 		</a>
 	</figure>
 

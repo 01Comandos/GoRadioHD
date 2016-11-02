@@ -2,10 +2,10 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Radio UCSAR</title>
+    <title>GoRadioHD</title>
     <meta name="author" content="@01Comandos">
-    <meta name="description" content="Somos la radio oficial de La Universidad Católica Santa Rosa, transmitiendo desde la primogénita del continente americano.">
-    <meta name="keywords" content="Radio UCSAR, radios en venezuela, radio de la universidad catolica santa rosa, radio santa rosa, radios universitarias, universidades con radios, estaciones de radio, radios en cumana, radioucsar.com.ve">
+    <meta name="description" content="Somos la verdadera radio streaming, transmitiendo desde la primogénita del continente americano.">
+    <meta name="keywords" content="GoRadioHD, radios en venezuela, radio streaming en venezuela, radio streaming hd, radio hd, radios universitarias, emisoras online venezuela, emisoras online, estaciones de radio, radios en cumana, goradiohd.com.ve">
     <!-- FIN DE METADATOS -->
 
     <!-- ESTILOS -->    
