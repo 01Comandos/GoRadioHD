@@ -3,7 +3,7 @@
 	<section class="item-promo">
 
 		<h4>¡Contáctanos! <br>
-			<strong>goradiohd@gmail.com</strong>
+			<strong>contacto@goradiohd.com.ve</strong>
 		</h4>
 	</section>
 
