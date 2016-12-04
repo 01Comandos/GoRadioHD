@@ -190,7 +190,16 @@ a
 	INDEX
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------*/
-
+.publicidad
+	width 50em
+	margin 0 auto 2em auto
+	a
+		display inline-block
+		img
+			width 100%
+			&:last-child
+				display none
+			
 .reproductor
 	background rgba(gris-texto .4)
 	width 30em
@@ -205,12 +214,15 @@ a
 		display none !important
 
 .socialMedia
-	width 20em
+	width 40em
 	margin 2em auto
-	height 20em
 	text-align center
+	flex-center()
 	.item
 		height 100%
+		margin-right 1em
+		&:last-child
+			margin-right 0
 
 	
 
