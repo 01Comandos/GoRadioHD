@@ -4,11 +4,11 @@
 	<?php include 'inc/head_common.php'; ?>	
 </head>
 <body>
-	<!--PUBLICIDAD PRENSA ALTERNATIVA-->
+	<!--PUBLICIDAD servitecnology-->
 	<section class="publicidad">
-		<a href="http://prensalternativa.com.ve/" target="_blank">
-			<img src="img/prensa-alternativa.png" alt="">
-			<img src="img/prensa-alternativa-mobile.png" alt="">
+		<a href="!" target="_blank">
+			<img src="img/servitecnology.png" alt="">
+			<img src="img/servitecnology.png" alt="">
 		</a>
 	</section>
 
