@@ -14,6 +14,7 @@
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------*/
 @import 'nib'
+@import 'rslides.styl'
 
 
 @font-face 
@@ -192,7 +193,7 @@ a
 -------------------------------------------------------------------------*/
 .publicidad
 	width 50em
-	margin 0 auto 2em auto
+	margin 0.5em auto 2em auto
 	a
 		display inline-block
 		img
@@ -223,6 +224,15 @@ a
 		margin-right 1em
 		&:last-child
 			margin-right 0
+			
+.rslides
+	width 50em
+	margin 0 auto
+	li
+		a
+			img
+				&:nth-child(2)
+					display none
 
 	
 

@@ -8,7 +8,7 @@
 	<section class="publicidad">
 		<a href="!" target="_blank">
 			<img src="img/servitecnology.png" alt="">
-			<img src="img/servitecnology.png" alt="">
+			<img src="img/servitecnology-mobile.png" alt="">
 		</a>
 	</section>
 
@@ -19,14 +19,33 @@
 	<section class="reproductor">
 		<iframe width="140%" height="85" allowTransparency="true" border="0" style="border: 0; box-shadow: 0px 0px 0  #fff;" src="http://radioshd.com/radioplayer/#goradiohd"></iframe>
 	</section>
+	
+	<!--LISTADO DE PUBLICIDAD-->
+	<ul class="rslides">
+		<!--CREACIONES OCEANO AZUL-->
+		<li>
+			<a href="https://www.instagram.com/creaciones_oceano/" target="_blank">
+				<img src="img/creaciones-oceano.png" alt="">
+				<img src="img/creaciones-oceano-mobile.png" alt="">
+			</a>
+		</li>
+		
+		<!--PRENSA ALTERNATIVA-->
+		<li>
+			<a href="http://prensalternativa.com.ve/" target="_blank">
+				<img src="img/prensa-alternativa.png" alt="">
+				<img src="img/prensa-alternativa-mobile.png" alt="">
+			</a>
+		</li>
 
-	<!--PUBLICIDAD CREACIONES OCEANO AZUL-->
-	<section class="publicidad">
-		<a href="https://www.instagram.com/creaciones_oceano/" target="_blank">
-			<img src="img/creaciones-oceano.png" alt="">
-			<img src="img/creaciones-oceano-mobile.png" alt="">
-		</a>
-	</section>
+		<!--GOMIX-->
+		<li>
+			<a href="!">
+				<img src="img/gomix.png" alt="">
+				<img src="img/gomix-mobile.png" alt="">
+			</a>
+		</li>
+	</ul>
 
 	<!--REDES SOCIALES-->
 	<section class="socialMedia">

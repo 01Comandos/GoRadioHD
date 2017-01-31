@@ -3,6 +3,9 @@
     <script src="js/materialize.min.js"></script>
 	<script src="js/jquery.nicescroll.js"></script>
 
+	<!--HOME SLIDE-->
+	<script src="js/responsiveslides.min.js"></script>
+
 
 	<!--SCRIPT PROPIOS-->
 	<script>		
@@ -10,6 +13,9 @@
 	    	function() { 
 	    		//INICIALIZAR NICESCROLL
 	    		$("html").niceScroll({cursorwidth:"12px" , zindex:"9999" , cursorborder:"0px" , cursorborderradius:"0px" , cursorcolor:"#90A4AE", background:"#CFD8DC", autohidemode:false});
+
+	    		//CAROUSEL
+	    		 $(".rslides").responsiveSlides();
 	    		
 	    	}
 	    );
